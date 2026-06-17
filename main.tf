@@ -43,11 +43,13 @@ resource "aws_db_instance" "event_db" {
 
   engine = "mysql"
 
-  engine_version = "8.4"
+  engine_version = "8.4.3"
 
   instance_class = "db.t3.micro"
 
   allocated_storage = 20
+  
+  storage_type = "gp3"
 
   username = var.db_username
 
