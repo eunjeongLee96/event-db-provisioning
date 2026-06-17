@@ -35,6 +35,7 @@ resource "aws_db_subnet_group" "event_db" {
   }
 }
 
+
 resource "aws_db_instance" "event_db" {
 
   identifier = var.db_identifier
