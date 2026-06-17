@@ -6,5 +6,3 @@ db_name = "eventdb"
 
 db_username = "admin"
 
-db_password = "Password123!"
-

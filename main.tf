@@ -43,7 +43,7 @@ resource "aws_db_instance" "event_db" {
 
   engine = "mysql"
 
-  engine_version = "8.4.3"
+  engine_version = "8.4"
 
   instance_class = "db.t3.micro"
 
