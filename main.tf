@@ -62,7 +62,7 @@ resource "aws_db_instance" "event_db" {
     "sg-01d90b22707927bc3"
   ]
 
-  publicly_accessible = false
+  publicly_accessible = true
 
   skip_final_snapshot = true
 
